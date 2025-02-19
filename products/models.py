@@ -4,7 +4,7 @@ from django.utils.text import slugify
 
 class CategoryBase(models.Model):
     """
-    Абстрактная модель для категорий и подкатегорий.
+    Абстрактная модель для категорий, подкатегорий и продуктов.
     """
     name = models.CharField(
         'Название',
@@ -17,8 +17,13 @@ class CategoryBase(models.Model):
     )
 
     def save(self, *args, **kwargs):
-        if not self.slug:
+        if not self.slug and self.name:
             self.slug = slugify(self.name)
+            original_slug = self.slug
+            counter = 1
+            while self.__class__.objects.filter(slug=self.slug).exists():
+                self.slug = f'{original_slug}-{counter}'
+                counter += 1
         super().save(*args, **kwargs)
 
     def __str__(self):
