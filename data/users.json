@@ -1,0 +1,37 @@
+[
+    {
+        "username": "user1",
+        "password": "password1",
+        "email": "user1@example.com",
+        "first_name": "Иван",
+        "last_name": "Иванов"
+    },
+    {
+        "username": "user2",
+        "password": "password2",
+        "email": "user2@example.com",
+        "first_name": "Петр",
+        "last_name": "Петров"
+    },
+    {
+        "username": "user3",
+        "password": "password3",
+        "email": "user3@example.com",
+        "first_name": "Сергей",
+        "last_name": "Сергеев"
+    },
+    {
+        "username": "user4",
+        "password": "password4",
+        "email": "user4@example.com",
+        "first_name": "Александр",
+        "last_name": "Александров"
+    },
+    {
+        "username": "user5",
+        "password": "password5",
+        "email": "user5@example.com",
+        "first_name": "Мария",
+        "last_name": "Маринина"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Фрукты",
+        "slug": "frukty",
+        "image": "categories/категория.jpg"
+    },
+    {
+        "name": "Овощи",
+        "slug": "ovoshchi",
+        "image": "categories/категория.jpg"
+    },
+    {
+        "name": "Молочные продукты",
+        "slug": "molochnye-produkty",
+        "image": "categories/категория.jpg"
+    },
+    {
+        "name": "Мясо и птица",
+        "slug": "myaso-i-ptitsa",
+        "image": "categories/категория.jpg"
+    },
+    {
+        "name": "Напитки",
+        "slug": "napitki",
+        "image": "categories/категория.jpg"
+    }
+]

@@ -99,7 +99,8 @@ class Product(CategoryBase):
 
     @property
     def category(self):
-        return self.subcategory.category
+        return (self.parent_subcategory.category
+                if self.parent_subcategory else None)
 
     class Meta:
         verbose_name = 'Продукт'

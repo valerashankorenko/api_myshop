@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Яблоки",
+        "slug": "yabloki",
+        "parent_category": 1,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Бананы",
+        "slug": "banany",
+        "parent_category": 1,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Цитрусовые",
+        "slug": "citrusovye",
+        "parent_category": 1,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Ягоды",
+        "slug": "yagody",
+        "parent_category": 1,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Экзотические фрукты",
+        "slug": "ekzoticheskie-frukty",
+        "parent_category": 1,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Картофель",
+        "slug": "kartofel",
+        "parent_category": 2,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Помидоры",
+        "slug": "pomidory",
+        "parent_category": 2,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Огурцы",
+        "slug": "ogurcy",
+        "parent_category": 2,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Лук",
+        "slug": "luk",
+        "parent_category": 2,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Морковь",
+        "slug": "morkov",
+        "parent_category": 2,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Молоко",
+        "slug": "moloko",
+        "parent_category": 3,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Сыр",
+        "slug": "syr",
+        "parent_category": 3,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Йогурт",
+        "slug": "yogurt",
+        "parent_category": 3,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Сливочное масло",
+        "slug": "slivochnoe-maslo",
+        "parent_category": 3,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Творог",
+        "slug": "tvorog",
+        "parent_category": 3,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Говядина",
+        "slug": "govjadina",
+        "parent_category": 4,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Свинина",
+        "slug": "svinina",
+        "parent_category": 4,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Курица",
+        "slug": "kurica",
+        "parent_category": 4,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Индейка",
+        "slug": "indejka",
+        "parent_category": 4,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Баранина",
+        "slug": "baranina",
+        "parent_category": 4,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Соки",
+        "slug": "soki",
+        "parent_category": 5,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Газированные напитки",
+        "slug": "gazirovannye-napitki",
+        "parent_category": 5,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Чай",
+        "slug": "chaj",
+        "parent_category": 5,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Кофе",
+        "slug": "kofe",
+        "parent_category": 5,
+        "image": "subcategories/подкатегория.jpg"
+    },
+    {
+        "name": "Минеральная вода",
+        "slug": "mineralnaya-voda",
+        "parent_category": 5,
+        "image": "subcategories/подкатегория.jpg"
+    }
+]

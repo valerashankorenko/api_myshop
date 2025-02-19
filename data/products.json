@@ -1,0 +1,1127 @@
+[
+    {
+        "name": "Яблоки 1",
+        "slug": "yabloki 1",
+        "parent_subcategory": 6,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Яблоки 2",
+        "slug": "yabloki 2",
+        "parent_subcategory": 6,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Яблоки 3",
+        "slug": "yabloki 3",
+        "parent_subcategory": 6,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Яблоки 4",
+        "slug": "yabloki 4",
+        "parent_subcategory": 6,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Яблоки 5",
+        "slug": "yabloki 5",
+        "parent_subcategory": 6,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Бананы 1",
+        "slug": "banany 1",
+        "parent_subcategory": 7,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Бананы 2",
+        "slug": "banany 2",
+        "parent_subcategory": 7,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Бананы 3",
+        "slug": "banany 3",
+        "parent_subcategory": 7,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Бананы 4",
+        "slug": "banany 4",
+        "parent_subcategory": 7,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Бананы 5",
+        "slug": "banany 5",
+        "parent_subcategory": 7,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Цитрусовые 1",
+        "slug": "citrusovye 1",
+        "parent_subcategory": 8,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Цитрусовые 2",
+        "slug": "citrusovye 2",
+        "parent_subcategory": 8,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Цитрусовые 3",
+        "slug": "citrusovye 3",
+        "parent_subcategory": 8,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Цитрусовые 4",
+        "slug": "citrusovye 4",
+        "parent_subcategory": 8,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Цитрусовые 5",
+        "slug": "citrusovye 5",
+        "parent_subcategory": 8,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Ягоды 1",
+        "slug": "yagody 1",
+        "parent_subcategory": 9,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Ягоды 2",
+        "slug": "yagody 2",
+        "parent_subcategory": 9,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Ягоды 3",
+        "slug": "yagody 3",
+        "parent_subcategory": 9,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Ягоды 4",
+        "slug": "yagody 4",
+        "parent_subcategory": 9,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Ягоды 5",
+        "slug": "yagody 5",
+        "parent_subcategory": 9,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Экзотические фрукты 1",
+        "slug": "ekzoticheskie-frukty 1",
+        "parent_subcategory": 10,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Экзотические фрукты 2",
+        "slug": "ekzoticheskie-frukty 2",
+        "parent_subcategory": 10,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Экзотические фрукты 3",
+        "slug": "ekzoticheskie-frukty 3",
+        "parent_subcategory": 10,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Экзотические фрукты 4",
+        "slug": "ekzoticheskie-frukty 4",
+        "parent_subcategory": 10,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Экзотические фрукты 5",
+        "slug": "ekzoticheskie-frukty 5",
+        "parent_subcategory": 10,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Картофель 1",
+        "slug": "kartofel 1",
+        "parent_subcategory": 11,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Картофель 2",
+        "slug": "kartofel 2",
+        "parent_subcategory": 11,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Картофель 3",
+        "slug": "kartofel 3",
+        "parent_subcategory": 11,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Картофель 4",
+        "slug": "kartofel 4",
+        "parent_subcategory": 11,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Картофель 5",
+        "slug": "kartofel 5",
+        "parent_subcategory": 11,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Помидоры 1",
+        "slug": "pomidory 1",
+        "parent_subcategory": 12,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Помидоры 2",
+        "slug": "pomidory 2",
+        "parent_subcategory": 12,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Помидоры 3",
+        "slug": "pomidory 3",
+        "parent_subcategory": 12,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Помидоры 4",
+        "slug": "pomidory 4",
+        "parent_subcategory": 12,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Помидоры 5",
+        "slug": "pomidory 5",
+        "parent_subcategory": 12,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Огурцы 1",
+        "slug": "ogurcy 1",
+        "parent_subcategory": 13,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Огурцы 2",
+        "slug": "ogurcy 2",
+        "parent_subcategory": 13,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Огурцы 3",
+        "slug": "ogurcy 3",
+        "parent_subcategory": 13,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Огурцы 4",
+        "slug": "ogurcy 4",
+        "parent_subcategory": 13,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Огурцы 5",
+        "slug": "ogurcy 5",
+        "parent_subcategory": 13,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Лук 1",
+        "slug": "luk 1",
+        "parent_subcategory": 14,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Лук 2",
+        "slug": "luk 2",
+        "parent_subcategory": 14,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Лук 3",
+        "slug": "luk 3",
+        "parent_subcategory": 14,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Лук 4",
+        "slug": "luk 4",
+        "parent_subcategory": 14,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Лук 5",
+        "slug": "luk 5",
+        "parent_subcategory": 14,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Морковь 1",
+        "slug": "morkov 1",
+        "parent_subcategory": 15,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Морковь 2",
+        "slug": "morkov 2",
+        "parent_subcategory": 15,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Морковь 3",
+        "slug": "morkov 3",
+        "parent_subcategory": 15,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Морковь 4",
+        "slug": "morkov 4",
+        "parent_subcategory": 15,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Морковь 5",
+        "slug": "morkov 5",
+        "parent_subcategory": 15,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Молоко 1",
+        "slug": "moloko 1",
+        "parent_subcategory": 16,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Молоко 2",
+        "slug": "moloko 2",
+        "parent_subcategory": 16,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Молоко 3",
+        "slug": "moloko 3",
+        "parent_subcategory": 16,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Молоко 4",
+        "slug": "moloko 4",
+        "parent_subcategory": 16,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Молоко 5",
+        "slug": "moloko 5",
+        "parent_subcategory": 16,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Сыр 1",
+        "slug": "syr 1",
+        "parent_subcategory": 17,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Сыр 2",
+        "slug": "syr 2",
+        "parent_subcategory": 17,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Сыр 3",
+        "slug": "syr 3",
+        "parent_subcategory": 17,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Сыр 4",
+        "slug": "syr 4",
+        "parent_subcategory": 17,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Сыр 5",
+        "slug": "syr 5",
+        "parent_subcategory": 17,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Йогурт 1",
+        "slug": "yogurt 1",
+        "parent_subcategory": 18,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Йогурт 2",
+        "slug": "yogurt 2",
+        "parent_subcategory": 18,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Йогурт 3",
+        "slug": "yogurt 3",
+        "parent_subcategory": 18,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Йогурт 4",
+        "slug": "yogurt 4",
+        "parent_subcategory": 18,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Йогурт 5",
+        "slug": "yogurt 5",
+        "parent_subcategory": 18,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Сливочное масло 1",
+        "slug": "slivochnoe-maslo 1",
+        "parent_subcategory": 19,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Сливочное масло 2",
+        "slug": "slivochnoe-maslo 2",
+        "parent_subcategory": 19,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Сливочное масло 3",
+        "slug": "slivochnoe-maslo 3",
+        "parent_subcategory": 19,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Сливочное масло 4",
+        "slug": "slivochnoe-maslo 4",
+        "parent_subcategory": 19,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Сливочное масло 5",
+        "slug": "slivochnoe-maslo 5",
+        "parent_subcategory": 19,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Творог 1",
+        "slug": "tvorog 1",
+        "parent_subcategory": 20,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Творог 2",
+        "slug": "tvorog 2",
+        "parent_subcategory": 20,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Творог 3",
+        "slug": "tvorog 3",
+        "parent_subcategory": 20,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Творог 4",
+        "slug": "tvorog 4",
+        "parent_subcategory": 20,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Творог 5",
+        "slug": "tvorog 5",
+        "parent_subcategory": 20,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Говядина 1",
+        "slug": "govjadina 1",
+        "parent_subcategory": 21,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Говядина 2",
+        "slug": "govjadina 2",
+        "parent_subcategory": 21,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Говядина 3",
+        "slug": "govjadina 3",
+        "parent_subcategory": 21,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Говядина 4",
+        "slug": "govjadina 4",
+        "parent_subcategory": 21,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Говядина 5",
+        "slug": "govjadina 5",
+        "parent_subcategory": 21,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Свинина 1",
+        "slug": "svinina 1",
+        "parent_subcategory": 22,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Свинина 2",
+        "slug": "svinina 2",
+        "parent_subcategory": 22,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Свинина 3",
+        "slug": "svinina 3",
+        "parent_subcategory": 22,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Свинина 4",
+        "slug": "svinina 4",
+        "parent_subcategory": 22,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Свинина 5",
+        "slug": "svinina 5",
+        "parent_subcategory": 22,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Курица 1",
+        "slug": "kurica 1",
+        "parent_subcategory": 23,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Курица 2",
+        "slug": "kurica 2",
+        "parent_subcategory": 23,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Курица 3",
+        "slug": "kurica 3",
+        "parent_subcategory": 23,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Курица 4",
+        "slug": "kurica 4",
+        "parent_subcategory": 23,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Курица 5",
+        "slug": "kurica 5",
+        "parent_subcategory": 23,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Индейка 1",
+        "slug": "indejka 1",
+        "parent_subcategory": 24,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Индейка 2",
+        "slug": "indejka 2",
+        "parent_subcategory": 24,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Индейка 3",
+        "slug": "indejka 3",
+        "parent_subcategory": 24,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Индейка 4",
+        "slug": "indejka 4",
+        "parent_subcategory": 24,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Индейка 5",
+        "slug": "indejka 5",
+        "parent_subcategory": 24,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Баранина 1",
+        "slug": "baranina 1",
+        "parent_subcategory": 25,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Баранина 2",
+        "slug": "baranina 2",
+        "parent_subcategory": 25,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Баранина 3",
+        "slug": "baranina 3",
+        "parent_subcategory": 25,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Баранина 4",
+        "slug": "baranina 4",
+        "parent_subcategory": 25,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Баранина 5",
+        "slug": "baranina 5",
+        "parent_subcategory": 25,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Соки 1",
+        "slug": "soki 1",
+        "parent_subcategory": 26,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Соки 2",
+        "slug": "soki 2",
+        "parent_subcategory": 26,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Соки 3",
+        "slug": "soki 3",
+        "parent_subcategory": 26,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Соки 4",
+        "slug": "soki 4",
+        "parent_subcategory": 26,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Соки 5",
+        "slug": "soki 5",
+        "parent_subcategory": 26,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Газированные напитки 1",
+        "slug": "gazirovannye-napitki 1",
+        "parent_subcategory": 27,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Газированные напитки 2",
+        "slug": "gazirovannye-napitki 2",
+        "parent_subcategory": 27,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Газированные напитки 3",
+        "slug": "gazirovannye-napitki 3",
+        "parent_subcategory": 27,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Газированные напитки 4",
+        "slug": "gazirovannye-napitki 4",
+        "parent_subcategory": 27,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Газированные напитки 5",
+        "slug": "gazirovannye-napitki 5",
+        "parent_subcategory": 27,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Чай 1",
+        "slug": "chaj 1",
+        "parent_subcategory": 28,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Чай 2",
+        "slug": "chaj 2",
+        "parent_subcategory": 28,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Чай 3",
+        "slug": "chaj 3",
+        "parent_subcategory": 28,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Чай 4",
+        "slug": "chaj 4",
+        "parent_subcategory": 28,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Чай 5",
+        "slug": "chaj 5",
+        "parent_subcategory": 28,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Кофе 1",
+        "slug": "kofe 1",
+        "parent_subcategory": 29,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Кофе 2",
+        "slug": "kofe 2",
+        "parent_subcategory": 29,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Кофе 3",
+        "slug": "kofe 3",
+        "parent_subcategory": 29,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Кофе 4",
+        "slug": "kofe 4",
+        "parent_subcategory": 29,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Кофе 5",
+        "slug": "kofe 5",
+        "parent_subcategory": 29,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    },
+    {
+        "name": "Минеральная вода 1",
+        "slug": "mineralnaya-voda 1",
+        "parent_subcategory": 30,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "12.00"
+    },
+    {
+        "name": "Минеральная вода 2",
+        "slug": "mineralnaya-voda 2",
+        "parent_subcategory": 30,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "14.00"
+    },
+    {
+        "name": "Минеральная вода 3",
+        "slug": "mineralnaya-voda 3",
+        "parent_subcategory": 30,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "16.00"
+    },
+    {
+        "name": "Минеральная вода 4",
+        "slug": "mineralnaya-voda 4",
+        "parent_subcategory": 30,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "18.00"
+    },
+    {
+        "name": "Минеральная вода 5",
+        "slug": "mineralnaya-voda 5",
+        "parent_subcategory": 30,
+        "image_small": "products/small/маленькая.jpg",
+        "image_medium": "products/medium/средняя.jpg",
+        "image_large": "products/large/большая.jpg",
+        "price": "20.00"
+    }
+]
