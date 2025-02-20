@@ -5,15 +5,16 @@ from django.urls import include, path
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
+from rest_framework.authtoken.views import obtain_auth_token
 
 schema_view = get_schema_view(
     openapi.Info(
         title="Shop API",
         default_version='v1',
-        description="API for a product shop",
+        description="API для магазина продуктов",
         terms_of_service="https://www.example.com/terms/",
-        contact=openapi.Contact(email="contact@example.com"),
-        license=openapi.License(name="BSD License"),
+        contact=openapi.Contact(email="valerashankorenko@yandex.by"),
+        license=openapi.License(name="License"),
     ),
     public=True,
     permission_classes=[permissions.AllowAny],
@@ -21,16 +22,23 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # Для browsable API login
     path('api-auth/', include('rest_framework.urls')),
-    path('swagger<format>/', schema_view.without_ui(cache_timeout=0),
+    path('api/token-auth/', obtain_auth_token, name='token-auth'),
+    path('api/', include('products.urls')),
+    path('api/cart/', include('cart.urls')),
+    path('swagger<format>/',
+         schema_view.without_ui(cache_timeout=0),
          name='schema-json'),
-    path('swagger/', schema_view.with_ui(
-        'swagger',
-        cache_timeout=0),
-        name='schema-swagger-ui'),
-    path('redoc/', schema_view.with_ui('redoc',
-                                       cache_timeout=0), name='schema-redoc'),
+    path('swagger/',
+         schema_view.with_ui(
+             'swagger', cache_timeout=0),
+         name='schema-swagger-ui'),
+    path('redoc/',
+         schema_view.with_ui(
+             'redoc',
+             cache_timeout=0),
+         name='schema-redoc'
+         ),
 ]
 
 if settings.DEBUG:

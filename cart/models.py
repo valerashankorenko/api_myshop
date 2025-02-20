@@ -1,4 +1,5 @@
 from django.contrib.auth import get_user_model
+from django.core.exceptions import ValidationError
 from django.db import models
 
 from products.models import Product
@@ -58,3 +59,11 @@ class CartItem(models.Model):
     @property
     def total_price(self):
         return self.product.price * self.quantity
+
+    def clean(self):
+        if self.quantity < 0 or self.quantity > 1000:
+            raise ValidationError('Количество должно быть от 0 до 1000.')
+
+    def save(self, *args, **kwargs):
+        self.clean()
+        super().save(*args, **kwargs)
