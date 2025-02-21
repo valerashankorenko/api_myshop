@@ -1,4 +1,4 @@
-from rest_framework import viewsets, permissions
+from rest_framework import permissions, viewsets
 
 from products.paginations import CustomPagination
 
@@ -15,7 +15,7 @@ class CategoryViewSet(viewsets.ReadOnlyModelViewSet):
     Позволяет получать список всех категорий или одну категорию по её ID.
     """
 
-    queryset = Category.objects.all()
+    queryset = Category.objects.all().order_by('id')
     serializer_class = CategorySerializer
     pagination_class = CustomPagination
     permission_classes = [permissions.AllowAny]
@@ -29,7 +29,7 @@ class SubcategoryViewSet(viewsets.ReadOnlyModelViewSet):
     Позволяет получать список всех подкатегорий или одну подкатегорию по её ID.
     """
 
-    queryset = Subcategory.objects.all()
+    queryset = Subcategory.objects.all().order_by('id')
     serializer_class = SubcategorySerializer
     pagination_class = CustomPagination
 
@@ -41,6 +41,6 @@ class ProductViewSet(viewsets.ReadOnlyModelViewSet):
     Поддерживает только чтение (GET-запросы).
     Позволяет получать список всех продуктов или один продукт по его ID.
     """
-    queryset = Product.objects.all()
+    queryset = Product.objects.all().order_by('id')
     serializer_class = ProductSerializer
     pagination_class = CustomPagination

@@ -30,6 +30,8 @@ class SubcategorySerializer(serializers.ModelSerializer):
     - slug: Уникальный слаг для URL.
     - image: Изображение подкатегории.
     """
+    category = serializers.CharField(
+        source='parent_category.name', read_only=True)
 
     class Meta:
         model = Subcategory
@@ -51,15 +53,16 @@ class ProductSerializer(serializers.ModelSerializer):
     """
 
     category = serializers.CharField(
-        source='category.name', read_only=True)
+        source='parent_subcategory.parent_category.name',
+        read_only=True
+    )
     subcategory = serializers.CharField(
-        source='subcategory.name', read_only=True)
-    images = serializers.SerializerMethodField()
+        source='parent_subcategory.name', read_only=True)
 
     class Meta:
         model = Product
-        fields = ['id', 'name', 'slug', 'category',
-                  'subcategory', 'price', 'images']
+        fields = ['id', 'name', 'slug', 'category', 'subcategory',
+                  'price', 'image_small', 'image_medium', 'image_large']
 
     def get_images(self, obj):
         """

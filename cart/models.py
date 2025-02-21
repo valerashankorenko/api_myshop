@@ -28,6 +28,20 @@ class Cart(models.Model):
     def __str__(self):
         return f'Корзина пользователя: {self.user.username}'
 
+    @property
+    def total_items(self):
+        """
+        Возвращает общее количество товаров в корзине.
+        """
+        return sum(item.quantity for item in self.items.all())
+
+    @property
+    def total_price(self):
+        """
+        Возвращает общую стоимость всех товаров в корзине.
+        """
+        return sum(item.total_price for item in self.items.all())
+
 
 class CartItem(models.Model):
     """
@@ -58,12 +72,21 @@ class CartItem(models.Model):
 
     @property
     def total_price(self):
+        """
+        Возвращает общую стоимость данного элемента корзины.
+        """
         return self.product.price * self.quantity
 
     def clean(self):
+        """
+        Проверяет, что количество товаров находится в допустимых пределах.
+        """
         if self.quantity < 0 or self.quantity > 1000:
             raise ValidationError('Количество должно быть от 0 до 1000.')
 
     def save(self, *args, **kwargs):
+        """
+        Сохраняет объект, предварительно выполнив проверку.
+        """
         self.clean()
         super().save(*args, **kwargs)
