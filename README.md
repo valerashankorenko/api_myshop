@@ -25,12 +25,12 @@ Telegram: 📱 [@valeron007](https://t.me/valeron007)<br/>
 E-mail: 📧 valerashankorenko@yandex.by<br/>
 
 ## Стек технологий
-- [Python](https://www.python.org/)
-- [Django](https://www.djangoproject.com/)
-- [Django REST framework](https://www.django-rest-framework.org/)
-- [Pillow](https://pillow.readthedocs.io/en/stable/index.html)
-- [SQLite](https://www.sqlite.org/)
-- [Pytest](https://docs.pytest.org/en/stable/getting-started.html)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Django REST framework](https://img.shields.io/badge/Django%20REST%20framework-3C873A?style=flat-square&logo=django&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-EBEEEF?style=flat-square&logo=pillow&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 ## Как запустить проект локально:
 1. Клонировать репозиторий и перейти в его директорию в командной строке:
