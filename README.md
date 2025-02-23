@@ -30,6 +30,7 @@ E-mail: 📧 valerashankorenko@yandex.by<br/>
 - [Django REST framework](https://www.django-rest-framework.org/)
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html)
 - [SQLite](https://www.sqlite.org/)
+- [Pytest](https://docs.pytest.org/en/stable/getting-started.html)
 
 ## Как запустить проект локально:
 1. Клонировать репозиторий и перейти в его директорию в командной строке:
@@ -65,7 +66,7 @@ python manage.py migrate
 ```
 7. В корневой директории создать файл .env и заполнить своими данными:
 ```
-DJANGO_DEBUG=True #для разработки
+DJANGO_DEBUG=True # для разработки
 ALLOWED_HOSTS=localhost,127.0.0.1
 SECRET_KEY=секретный ключ Django
 Данные для суперпользователя
@@ -83,9 +84,13 @@ python manage.py create_superuser
 ```shell
 python manage.py load_database
 ```
-10. Запуск тестов 
+10. Запуск тестов Unittest
 ```shell
 python manage.py test
+```
+Запуск тестов Unittest
+```shell
+pytest
 ```
 11. Запуск проекта
 ```shell

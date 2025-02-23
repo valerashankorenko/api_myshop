@@ -160,3 +160,17 @@ class CartTests(APITestCase):
                          'Корзина не пуста после удаления элемента')
         self.assertEqual(self.cart.total_price, 0.00,
                          'Общая стоимость корзины не обнулилась')
+
+    def test_get_cart_unauthenticated(self):
+        """
+        Тестирование доступа к корзине неаутентифицированного пользователя.
+        Убедитесь, что неаутентифицированный пользователь получает статус 401.
+        """
+        # Удаляем токен аутентификации
+        self.client.credentials()
+
+        url = reverse('cart-detail')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED,
+                         'Неаутентифицированный пользователь не должен '
+                         'иметь доступ к корзине')
