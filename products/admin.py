@@ -11,6 +11,8 @@ class CategoryAdmin(admin.ModelAdmin):
     ordering = ('id',)
     empty_value_display = '-пусто-'
     list_filter = ('slug',)
+    # Автоматическое заполнение slug на основе name
+    prepopulated_fields = {'slug': ('name',)}
 
 
 @admin.register(Subcategory)
@@ -21,6 +23,8 @@ class SubcategoryAdmin(admin.ModelAdmin):
     ordering = ('parent_category', 'id')
     empty_value_display = '-пусто-'
     list_filter = ('parent_category',)
+    # Автоматическое заполнение slug на основе name
+    prepopulated_fields = {'slug': ('name',)}
 
 
 @admin.register(Product)
@@ -32,3 +36,5 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('parent_subcategory', 'id')
     empty_value_display = '-пусто-'
     list_filter = ('parent_subcategory',)
+    # Автоматическое заполнение slug на основе name
+    prepopulated_fields = {'slug': ('name',)}
