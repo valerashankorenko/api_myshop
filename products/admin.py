@@ -10,6 +10,7 @@ class CategoryAdmin(admin.ModelAdmin):
     search_fields = ('id', 'name', 'slug')
     ordering = ('id',)
     empty_value_display = '-пусто-'
+    list_filter = ('slug',)
 
 
 @admin.register(Subcategory)
@@ -19,6 +20,7 @@ class SubcategoryAdmin(admin.ModelAdmin):
     search_fields = ('id', 'name', 'slug', 'parent_category__name')
     ordering = ('parent_category', 'id')
     empty_value_display = '-пусто-'
+    list_filter = ('parent_category',)
 
 
 @admin.register(Product)
@@ -29,3 +31,4 @@ class ProductAdmin(admin.ModelAdmin):
                      'parent_subcategory__parent_category__name')
     ordering = ('parent_subcategory', 'id')
     empty_value_display = '-пусто-'
+    list_filter = ('parent_subcategory',)

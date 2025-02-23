@@ -65,7 +65,7 @@ class Command(BaseCommand):
         try:
             with open(
                 'data/categories.json',
-                ncoding='utf-8'
+                encoding='utf-8'
             ) as data_file_categories:
                 categories_data = json.load(data_file_categories)
                 for category in categories_data:

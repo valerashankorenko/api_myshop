@@ -4,7 +4,7 @@ from django.utils.text import slugify
 
 class CategoryBase(models.Model):
     """
-    Абстрактная модель для категорий, подкатегорий и продуктов.
+    Базовая модель для категорий, подкатегорий и продуктов.
     """
     name = models.CharField(
         'Название',
