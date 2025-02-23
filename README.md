@@ -101,8 +101,10 @@ http://localhost:8000/swagger/
 
 13. Документация по API в формате redoc:<br/>
 http://localhost:8000/redoc/
+
 13. Получение токена:<br/>
-http://localhost:8000/api/token-auth/
+http://localhost:8000/api/token-auth/<br/>
+Для авторизации 'Token <ваш_токен>'
 
 ### Примеры запросов к API
 
