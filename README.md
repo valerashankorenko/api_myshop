@@ -88,7 +88,7 @@ python manage.py load_database
 ```shell
 python manage.py test
 ```
-Запуск тестов Unittest
+Запуск тестов Pytest
 ```shell
 pytest
 ```
