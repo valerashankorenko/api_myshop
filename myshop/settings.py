@@ -28,10 +28,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'rest_framework',
     'rest_framework.authtoken',
     'django_filters',
-    'drf_yasg',
+    'drf_spectacular',
+
     'users',
     'products',
     'cart',
@@ -118,7 +120,6 @@ LANGUAGE_CODE = 'ru-RU'
 TIME_ZONE = 'Europe/Moscow'
 USE_I18N = True
 USE_TZ = True
-USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
@@ -137,28 +138,23 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny'
     ],
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
 # Swagger settings
-SWAGGER_SETTINGS = {
-    'SECURITY_DEFINITIONS': {
-        'Bearer': {
-            'type': 'apiKey',
-            'name': 'Authorization',
-            'in': 'header'
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Shop API',
+    'DESCRIPTION': 'Документация API для магазина продуктов',
+    'VERSION': '1.0.0',
+    "COMPONENT_SPLIT_REQUEST": True,
+    "SCHEMA_PATH_PREFIX": r"/api/",
+    "APPEND_COMPONENTS": {
+        "securitySchemes": {
+            "Bearer": {
+                "type": "apiKey",
+                "in": "header",
+                "name": "Authorization"
+            }
         }
     },
-    'USE_SESSION_AUTH': False,
-    'JSON_EDITOR': True,
-    'SHOW_REQUEST_HEADERS': True
-}
-
-REDOC_SETTINGS = {
-    'SPEC_URL': '/swagger.json',
-    'LAZY_RENDERING': False,
-    'HIDE_HOSTNAME': False,
-    'PATH_IN_MIDDLE': False,
-    'EXPAND_RESPONSES': 'list',
-    'REQUIRED_PROPS_FIRST': True,
-    'SORT_PROPERTIES': False
 }

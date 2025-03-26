@@ -18,7 +18,7 @@ class CategoryViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Category.objects.all().order_by('id')
     serializer_class = CategorySerializer
     pagination_class = CustomPagination
-    permission_classes = [permissions.AllowAny]
+    permission_classes = (permissions.AllowAny,)
 
 
 class SubcategoryViewSet(viewsets.ReadOnlyModelViewSet):

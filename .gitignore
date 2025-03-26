@@ -149,4 +149,4 @@ dmypy.json
 media/
 image/
 sent_emails/
-
+*.jpg

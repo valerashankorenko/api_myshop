@@ -4,6 +4,7 @@
 API магазина продуктов.
 
 Реализовано:
+- Административная панель на русском языке для управления контентом.
 - Возможность создания, редактирования, удаления категорий и подкатегорий товаров в админке.
 - Эндпоинт для просмотра всех категорий с подкатегориями и предусмотрена пагинация.
 - Возможность добавления, изменения, удаления продуктов в админке.
@@ -25,12 +26,14 @@ Telegram: 📱 [@valeron007](https://t.me/valeron007)<br/>
 E-mail: 📧 valerashankorenko@yandex.by<br/>
 
 ## Стек технологий
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Django REST framework](https://img.shields.io/badge/Django%20REST%20framework-3C873A?style=flat-square&logo=django&logoColor=white)
-![Pillow](https://img.shields.io/badge/Pillow-EBEEEF?style=flat-square&logo=pillow&logoColor=white)
+![Python 3.12.4](https://img.shields.io/badge/Python-3.12.4-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django 5.1.6](https://img.shields.io/badge/Django-5.1.6-092E20?style=flat-square&logo=django&logoColor=white)
+![Django REST framework 3.15.2](https://img.shields.io/badge/Django%20REST%20framework-3.15.2-3C873A?style=flat-square&logo=django&logoColor=white)
+![Pillow 11.1.0](https://img.shields.io/badge/Pillow-11.1.0-EBEEEF?style=flat-square&logo=pillow&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Pytest 8.3.4](https://img.shields.io/badge/Pytest-8.3.4-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Pytest-django 4.10.0](https://img.shields.io/badge/Pytest--django-4.10.0-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![drf-spectacular 0.28.0](https://img.shields.io/badge/drf--spectacular-0.28.0-3C873A?style=flat-square&logo=django&logoColor=white)
 
 ## Как запустить проект локально:
 1. Клонировать репозиторий и перейти в его директорию в командной строке:
@@ -97,10 +100,10 @@ pytest
 python manage.py runserver
 ```
 12. Документация по API в формате swagger:<br/>
-http://localhost:8000/swagger/
+http://localhost:8000/api/schema/swagger-ui/
 
 13. Документация по API в формате redoc:<br/>
-http://localhost:8000/redoc/
+http://localhost:8000/api/schema/redoc/
 
 13. Получение токена:<br/>
 http://localhost:8000/api/token-auth/<br/>

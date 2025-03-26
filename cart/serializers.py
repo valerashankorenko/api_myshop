@@ -1,4 +1,5 @@
 from django.db.models import Sum
+from drf_spectacular.utils import extend_schema_field
 from rest_framework import serializers
 
 from products.models import Product
@@ -72,7 +73,8 @@ class CartSerializer(serializers.ModelSerializer):
                   'total_items_cart', 'total_price_cart']
         read_only_fields = ['id', 'items']
 
-    def get_total_items_cart(self, obj):
+    @extend_schema_field(serializers.IntegerField())
+    def get_total_items_cart(self, obj: Cart) -> int:
         """
         Метод для вычисления общего количества товаров в корзине.
 
@@ -85,7 +87,10 @@ class CartSerializer(serializers.ModelSerializer):
         """
         return obj.items.aggregate(total=Sum('quantity'))['total'] or 0
 
-    def get_total_price_cart(self, obj):
+    @extend_schema_field(
+        serializers.DecimalField(max_digits=10, decimal_places=2)
+    )
+    def get_total_price_cart(self, obj: Cart) -> float:
         """
         Метод для вычисления общей стоимости всех товаров в корзине.
 

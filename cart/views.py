@@ -17,7 +17,7 @@ class CartView(generics.RetrieveAPIView):
     """
 
     serializer_class = CartSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = (permissions.IsAuthenticated,)
 
     def get_object(self):
         """
@@ -40,7 +40,7 @@ class AddToCartView(generics.CreateAPIView):
     """
 
     serializer_class = CartItemSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = (permissions.IsAuthenticated,)
 
     def create(self, request, *args, **kwargs):
         """
@@ -86,7 +86,7 @@ class UpdateCartItemView(generics.UpdateAPIView):
     """
 
     serializer_class = CartItemSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = (permissions.IsAuthenticated,)
     queryset = CartItem.objects.all()
 
     def get_object(self):
@@ -157,8 +157,8 @@ class RemoveFromCartView(generics.DestroyAPIView):
     Поддерживает только DELETE-запросы.
     Доступно только для аутентифицированных пользователей.
     """
-
-    permission_classes = [permissions.IsAuthenticated]
+    serializer_class = CartItemSerializer
+    permission_classes = (permissions.IsAuthenticated,)
     queryset = CartItem.objects.all()
 
     def get_object(self):
@@ -188,8 +188,8 @@ class ClearCartView(generics.DestroyAPIView):
     Поддерживает только DELETE-запросы.
     Доступно только для аутентифицированных пользователей.
     """
-
-    permission_classes = [permissions.IsAuthenticated]
+    serializer_class = CartSerializer
+    permission_classes = (permissions.IsAuthenticated,)
 
     def destroy(self, request, *args, **kwargs):
         """
